@@ -1,4 +1,4 @@
-describe('test scenario day 3', function(){
+describe('Tugas Cypress Dojobox Day 3', function(){
     it('Isi nama dan email, lalu klik button email me!.',function(){
        cy.visit('https://ultimateqa.com/simple-html-elements-for-automation/');
        cy.get('#et_pb_contact_name_0').type('hanif').should('have.value','hanif');
