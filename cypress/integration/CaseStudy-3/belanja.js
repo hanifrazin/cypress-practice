@@ -27,5 +27,6 @@ describe('Test Shopping Barang',() => {
         cy.get('.confirm').click();
         // cy.get('.col-lg-3 > .list-group > a').contains('Laptops').click({force:true});
         // cy.get("#next2").click();
+        // cy.wait(500);
     })
 })
